@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+  <body>   
+    <element name="game" constructor="Game" extends="div">
+      <template>
+        <h2>{{message}}</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td id="1" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="2" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="3" class="pion" on-click="clickPion($event)" />
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td id="4" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="5" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="6" class="pion" on-click="clickPion($event)" />
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td id="7" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="8" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="9" class="pion" on-click="clickPion($event)" />
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td id="10" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="11" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="12" class="pion" on-click="clickPion($event)" />
+              <td/>
+              <td/>
+              <td/>
+              <td id="13" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="14" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="15" class="pion" on-click="clickPion($event)" />
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td id="16" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="17" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td id="18" class="pion" on-click="clickPion($event)" />
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td id="19" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="20" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="21" class="pion" on-click="clickPion($event)" />
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td/>
+              <td class="traitvertical"/>
+            </tr>
+            <tr>
+              <td id="22" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="23" class="pion" on-click="clickPion($event)" />
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td class="traithorizontal"/>
+              <td id="24" class="pion" on-click="clickPion($event)" />
+            </tr>
+          </tbody>
+        </table>
+      </template>
+      <script type="application/dart" src="game.dart"></script>
+    </element>
+  </body>
+</html>

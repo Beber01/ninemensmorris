@@ -1,0 +1,82 @@
+/* Auto-generated from style sheet href = web\ninemensmorris.css */
+/* DO NOT EDIT. */
+
+body {
+  background-color: #F8F8F8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+h1, p {
+  color: #333;
+}
+#sample_container_id {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+#click_counter {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 140px;
+}
+#click_counter button {
+  font-size: 24pt;
+  margin-bottom: 20px;
+}
+table td {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  border: 0;
+  border: #fff;
+}
+tr {
+  border: 0;
+  border: #fff;
+}
+table {
+  border: 0;
+  border-spacing: 0;
+  border: #fff;
+}
+.pion {
+  background-image: url("../NineMensMorris/web/img/pion.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pion1 {
+  background-image: url("../NineMensMorris/web/img/pion1.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pion1move {
+  background-image: url("../NineMensMorris/web/img/pion1move.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pion2 {
+  background-image: url("../NineMensMorris/web/img/pion2.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pion2move {
+  background-image: url("../NineMensMorris/web/img/pion2move.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.traithorizontal {
+  background-image: url("../NineMensMorris/web/img/traithorizontal.png");
+  background-repeat: no-repeat;
+}
+.traitvertical {
+  background-image: url("../NineMensMorris/web/img/traitvertical.png");
+  background-repeat: no-repeat;
+}
+
